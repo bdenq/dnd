@@ -1,7 +1,6 @@
 img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 .center {
     margin: auto;
@@ -10,7 +9,7 @@ img {
   }
 body {
     margin: 25px;
-    background-color: rgb(220,220,220);
+    background-color: rgba(220, 220, 220, 0.300);
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
 }
@@ -18,13 +17,19 @@ h1 {
     font-size: 35px;
     font-weight: bold;
     margin-top: 5px;
+    width: 360px;
+    background-color: rgba(220, 220, 220, 0.300);
+    padding-left: 30px
+}
+p {
+    color:white; 
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgba(220, 220, 220, 0.300);
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -41,7 +46,7 @@ ul {
     padding: 14px 16px;
     text-decoration: none;
   }
-  li a:hover {
+  li a:hover:not(.active) {
     background-color: #111;
   }
   .active {

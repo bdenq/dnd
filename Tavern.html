@@ -4,13 +4,24 @@
     <title>Bryan's DnD Music Selector</title>
     <link rel="stylesheet" type="text/css" href="Tavern.css">
   </head>
-
+  <style>
+    body {
+      background-image: url(https://i.pinimg.com/originals/d1/2e/b4/d12eb4782debd640072ee9e1afe14bd2.jpg)
+      ;background-repeat: no-repeat; background-size: 100%;
+    }
+    </style>
   <body>
     <h1>Tavern</h1>
-    <p>Ranging from a slow night to a bar fight, choose the audio file that suits your fancy!</p>
-    <audio controls autoplay>
+    <ul>
+      <li><a href="index.html"><img src="Home.jpg" style="width: 220px">Home</a></li>
+      <li><a href="Forest.html"><img src="Forestfiles/forest.jpg" style="width: 220px">Forest</a></li>
+      <li><a href="Tavern.html"><img src="Tavernfiles/empty.jpg" style="width: 200px">Tavern</a></li>
+    </ul> 
+    <p>Ranging from a slow night to a bar fight, 
+      choose the audio file that suits your fancy!</p>
+    <audio controls>
       <source src="Tavernfiles/Background.mp3" type="audio/mpeg">
     </audio>
-    <a href="index.html">Home</a>
+
   </body>
 </html>
